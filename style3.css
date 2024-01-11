@@ -1,0 +1,40 @@
+body {
+  /* width: 800px; */
+  /* height: 500px; */
+  background-color: #ff9999;
+}
+
+main {
+  width: 100%;
+  display: flex;
+  flex-flow: row;
+  justify-content: center;
+}
+header {
+  text-align: center;
+}
+#content {  
+  /* margin: 2em; */
+
+  background: #ececfb url("Assignment-2-1.PNG") no-repeat;
+  background-size: 100% 100%;
+  background-position: center;
+  border: 2px solid black;
+}
+
+#cotent p {
+  margin: auto;
+}
+
+#about {
+  padding: 1em;
+  background-color: rgb(236, 234, 234);
+  display: flex;
+  flex-flow: column wrap;
+  text-align: center;
+}
+
+#about img {
+  height: auto;
+  width: 100%;
+}
